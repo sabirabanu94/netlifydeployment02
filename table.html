@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Table</title>
+    <style>
+        table,
+        td,
+        th {
+            border: 1px solid;
+        }
+        
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+        
+        td,
+        th {
+            border: solid 1px;
+            text-align: center;
+            padding: 3px;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <th>State of health</th>
+        <th colspan="2">Fasting Values</th>
+        <th>After Remaining</th>
+        <tbody>
+            <tr>
+                <th></th>
+                <th> Minimum</th>
+                <th> Normal</th>
+                <th> 2hours of eating</th>
+
+            </tr>
+            <tr>
+                <td>Healthy</td>
+                <td>70</td>
+                <td>100</td>
+                <td>less than 140</td>
+
+            </tr>
+            <tr>
+                <td>Prediabetes</td>
+                <td>101</td>
+                <td>126</td>
+                <td>140-200</td>
+
+            </tr>
+            <tr>
+                <td>Diabetes</td>
+                <td>More than 126</td>
+                <td>not applicable</td>
+                <td>More than 200</td>
+
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
